@@ -1,0 +1,17 @@
+{
+  "name": "rapid-validation",
+  "version": "0.0.1",
+  "description": "Message validation for Rapid.io",
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "jsonschema": "1.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.13.1",
+    "@strv/eslint-config-javascript": "^6.3.0",
+    "babel-eslint": "^7.1.0"
+  }
+}
