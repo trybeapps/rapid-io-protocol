@@ -5,6 +5,9 @@ module.exports = {
     '@strv/javascript/environments/nodejs/v7',
     '@strv/javascript/coding-styles/recommended',
   ],
+  env: {
+    jest: true,
+  },
   parserOptions: {
     sourceType: 'script'
   },
