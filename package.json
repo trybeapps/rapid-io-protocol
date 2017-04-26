@@ -1,6 +1,6 @@
 {
   "name": "@rapid-io/validation",
-  "version": "0.0.30",
+  "version": "0.0.33",
   "description": "Message validation for Rapid.io",
   "main": "./lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "jsonschema": "1.1.1"
+    "ajv": "^5.0.0"
   },
   "devDependencies": {
     "@strv/eslint-config-javascript": "^6.3.0",
