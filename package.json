@@ -1,5 +1,5 @@
 {
-  "name": "@rapid-io/validation",
+  "name": "@rapid-io/protocol",
   "version": "0.0.41",
   "description": "Message validation for Rapid.io",
   "main": "./lib/index.js",
