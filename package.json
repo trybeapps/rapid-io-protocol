@@ -1,6 +1,6 @@
 {
   "name": "@rapid-io/protocol",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Message validation for Rapid.io",
   "main": "./lib/index.js",
   "dependencies": {
