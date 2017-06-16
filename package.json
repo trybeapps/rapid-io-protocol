@@ -4,7 +4,8 @@
   "description": "Protocol and validation for Rapid.io",
   "main": "./lib/index.js",
   "dependencies": {
-    "ajv": "^5.0.0"
+    "ajv": "^5.0.0",
+    "shortid": "^2.2.8"
   },
   "devDependencies": {
     "@strv/eslint-config-javascript": "^6.3.0",
