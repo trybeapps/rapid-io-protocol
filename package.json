@@ -1,6 +1,6 @@
 {
   "name": "@rapid-io/protocol",
-  "version": "0.0.68",
+  "version": "0.0.69",
   "description": "Protocol and validation for Rapid.io",
   "main": "./lib/index.js",
   "dependencies": {
