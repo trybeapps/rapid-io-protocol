@@ -3,18 +3,26 @@
   "version": "0.0.72",
   "description": "Protocol and validation for Rapid.io",
   "main": "./lib/index.js",
+  "browser": "./dist/bundle.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "build": "rollup -c",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "ajv": "^5.0.0",
+    "rollup-plugin-buble": "^0.15.0",
     "shortid": "^2.2.8"
   },
   "devDependencies": {
     "@strv/eslint-config-javascript": "^6.3.0",
     "babel-eslint": "^7.1.0",
     "eslint": "^3.13.1",
-    "jest": "^20.0.4"
+    "jest": "^20.0.4",
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
   }
 }
